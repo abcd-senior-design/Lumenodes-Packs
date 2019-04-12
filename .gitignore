@@ -1,6 +1,8 @@
 # Directories
 **/pca10056/s140/ses/Output/
 
+*.jlink
+
 # Prerequisites
 *.d
 
