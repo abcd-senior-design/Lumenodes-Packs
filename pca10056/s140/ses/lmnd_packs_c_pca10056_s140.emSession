@@ -75,11 +75,12 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="276" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="71" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="87" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="78" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="4704" useTextEdit="1" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="4685" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="332" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/pwr_mgmt/nrf_pwr_mgmt.c" selected="0" top="328" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1608" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/fds/fds.c" selected="0" top="1589" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="766" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/softdevice/s140/headers/ble_gap.h" selected="0" top="747" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="198" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/boards/boards.h" selected="0" top="179" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="lmnd_pack_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" debugSearchFileMap="C:/Users/btrai/OneDrive/New%20folder/Documents/nRF5_SDK_15.0.0_a53641a/examples/ble_central/Lumenode-Broadcast-Station/main.c&#xa;&#xa;C:/Users/btrai/OneDrive/New%20folder/Documents/nRF5_SDK_15.0.0_a53641a/examples/ble_central/Lumenodes-Broadcast-Station/main.c&#xa;" fileDialogInitialDirectory="C:/Users/btrai/OneDrive/New%20folder/Documents/nRF5_SDK_15.0.0_a53641a/components/libraries/fds" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

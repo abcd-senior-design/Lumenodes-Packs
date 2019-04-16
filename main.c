@@ -86,8 +86,8 @@
 #define BLUE_PIN NRF_GPIO_PIN_MAP(0, 24)
 
 #define CENTRAL_SCANNING_LED BSP_BOARD_LED_3  /**< Scanning LED will be on when the device is scanning. */
-#define CENTRAL_CONNECTED_LED BSP_BOARD_LED_1 /**< Connected LED will be on when the device is connected. */
-#define LEDBUTTON_LED BSP_BOARD_LED_2         /**< LED to indicate a change of state of the the Button characteristic on the peer. */
+//#define CENTRAL_CONNECTED_LED BSP_BOARD_LED_1 /**< Connected LED will be on when the device is connected. */
+//#define LEDBUTTON_LED BSP_BOARD_LED_2         /**< LED to indicate a change of state of the the Button characteristic on the peer. */
 
 #define SCAN_INTERVAL 0x0050 /**< Determines scan interval in units of 0.625 millisecond. */
 #define SCAN_WINDOW 0x0055   /**< Determines scan window in units of 0.625 millisecond. */
@@ -325,7 +325,7 @@ static ble_gap_scan_params_t const m_scan_params =
         .active = 1,
         .interval = SCAN_INTERVAL,
         .window = SCAN_WINDOW,
-        .channel_mask[4] = 0x60, // ONLY SCAN on Channel 39
+//        .channel_mask[4] = 0x60, // ONLY SCAN on Channel 39
         .timeout = SCAN_DURATION,
         .scan_phys = BLE_GAP_PHY_1MBPS,
         .filter_policy = BLE_GAP_SCAN_FP_ACCEPT_ALL,
@@ -920,6 +920,7 @@ int main(void) {
     int i;
     System_Init();
     // Start execution.
+    bsp_board_led_on(CENTRAL_SCANNING_LED);
 
     //If fails to load the show, use a blank one.
     if (load_show_from_flash() == -1) {
